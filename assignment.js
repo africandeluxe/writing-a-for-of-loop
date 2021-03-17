@@ -5,6 +5,6 @@
 const days = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 
 // your code goes here
-for ( let i = 0; i < days.length; i++) {
-    console.log(days[i]);
+for ( const day of days) {
+    console.log(day.charAt(0).toUpperCase() + day.slice(1));
 }
